@@ -70,27 +70,13 @@ public class SlotMachine {
 		
 		replay();
 	}
+	
+	//for the extra credit..dont want to mess with regular stuff in case I run out of time
+	//going to figure out how to make a new repo on github on linux quickly
+	public void evaluateSpin(String line1, String line2, String line3){
+		
+	}
 
-	/*private boolean checkWin(Symbol symbol1, Symbol symbol2, Symbol symbol3) {
-		boolean win = false;
-		int sym = symbol1.getSym();
-		int sym2 = symbol2.getSym();
-		int sym3 = symbol3.getSym();
-		
-		if(sym == sym2 && sym == sym3){
-			win = true;
-		}else{
-			//checks if first num is wild
-			if(sym == 4 && ((sym2 == sym) || (sym3 == sym))){
-				win = true;
-				System.out.println()
-			}
-		}
-		//check if Wild is involved
-		if(symbol1 )
-		
-		return win;
-	}*/
 
 	private void replay() {
 		askSpin();
@@ -128,18 +114,4 @@ public class SlotMachine {
 		machine.askSpin();
 		
 	}
-	
-/*	public class Combination{
-		String combination;
-		int winnings;
-		public Combination(int r1, int r2, int r3){
-			combination = r1 +""+r2+""+r3;
-		}
-		
-		public boolean compare(String com){
-			if
-		}
-	}*/
-	
-	
 }
